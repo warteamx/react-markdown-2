@@ -31,3 +31,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+#editor textarea {
+  width: 80%;
+  height: 100%;
+  min-height: 300px;
+}
