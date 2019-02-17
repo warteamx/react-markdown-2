@@ -27,6 +27,7 @@ That's it.  Pretty simple.  There's also a drop-down option in the upper right t
         document.getElementById('preview').innerHTML = marked(textvalue.toString());
     });
 
+    
     return (
 
         <React.Fragment>
