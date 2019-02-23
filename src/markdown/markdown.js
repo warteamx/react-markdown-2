@@ -33,8 +33,8 @@ That's it.  Pretty simple.  There's also a drop-down option in the upper right t
         <React.Fragment>
             <div> Markdown previewer</div>
 
-            <div id="editor">
-                <textarea value={textvalue} onChange={e => setTextvalue(e.target.value)} >
+            <div >
+                <textarea id="editor" value={textvalue} onChange={e => setTextvalue(e.target.value)} >
                 </textarea>
             </div>
 
