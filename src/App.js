@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-// import Markdown from './markdown/markdown';
+import Markdown from './markdown/markdown';
 import Drum from './drum/drum';
 
 
@@ -13,8 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         React App
       </header>
-      {/* <Markdown /> */}
-<Drum/>
+      <Markdown />
+ {/* <Drum/> */}
     </div>
   );
 }
